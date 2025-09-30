@@ -7,15 +7,15 @@ The goal is to master **pointers, structs, and memory management basics** before
 
 ## 📌 Modules in Stage 1
 
-### 🔹 Vector
+### 🔹 Vector 
 - **File:** [`vector/vector.c`](./vector/vector.c) / [`vector/vector.h`](./vector/vector.h)  
-- **Goal:** Implement a dynamic array with support for `push`, `pop`, resizing, and freeing.  
+- **Goal:** Implement a dynamic array with support for `get`, `set`, resizing, and freeing.  
 - **Proof of Concept:** [`tests/test_vector.c`](./tests/test_vector.c)  
 
 ### 🔹 Linked List
-- **File:** [`linked_list/list.c`](./linked_list/list.c) / [`linked_list/list.h`](./linked_list/list.h)  
+- **File:** [`linked_list/list.c`](./linked_list/linked_list.c) / [`linked_list/list.h`](./linked_list/linked_list.h)  
 - **Goal:** Implement a singly linked list with insert, delete, and traversal.  
-- **Proof of Concept:** [`tests/test_list.c`](./tests/test_list.c)  
+- **Proof of Concept:** [`tests/test_list.c`](./tests/test_linkedlist.c)  
 
 ### 🔹 CLI Parser
 - **File:** [`cli_parser/cli_parser.c`](./cli_parser/cli_parser.c) / [`cli_parser/cli_parser.h`](./cli_parser/cli_parser.h)  
