@@ -5,7 +5,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 
 ## Stage 1 — Data Structures & Utilities
 - [x] 1.1 Vector (init/free/push_back/get/set) ✅
-- [~] 1.2 Linked List
+- [x] 1.2 Linked List ✅
 - [ ] 1.3 CLI Parser
 - [ ] 1.4 String Library
 
@@ -13,6 +13,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 - [ ] Allocator
 - [ ] Garbage Collector
 ...
+
 
 ## Rules of Play
 - Every project must compile cleanly with `-Wall -Wextra -std=c11`.
