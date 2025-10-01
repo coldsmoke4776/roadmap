@@ -13,9 +13,9 @@ The goal is to master **pointers, structs, and memory management basics** before
 - **Proof of Concept:** [`tests/test_vector.c`](./tests/test_vector.c)  
 
 ### 🔹 Linked List
-- **File:** [`linked_list/list.c`](./linked_list/linked_list.c) / [`linked_list/list.h`](./linked_list/linked_list.h)  
+- **File:** [`linked_list/linked_list.c`](./linked_list/linked_list.c) / [`linked_list/linked_list.h`](./linked_list/linked_list.h)  
 - **Goal:** Implement a singly linked list with insert, delete, and traversal.  
-- **Proof of Concept:** [`tests/test_list.c`](./tests/test_linkedlist.c)  
+- **Proof of Concept:** [`tests/test_linkedlist.c`](./tests/test_linkedlist.c)  
 
 ### 🔹 CLI Parser
 - **File:** [`cli_parser/cli_parser.c`](./cli_parser/cli_parser.c) / [`cli_parser/cli_parser.h`](./cli_parser/cli_parser.h)  
