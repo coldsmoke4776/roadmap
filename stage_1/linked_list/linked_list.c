@@ -30,6 +30,7 @@ void list_free(list_t *list){
     node_t *current = list->head; // Set current job to top of list
     while(current != NULL){
         node_t *temp_node = current->next; // Walk the nodes by storing next job in a temp variable
+        free(current->data); // Free the element's memory first
         free(current); // Free current node
         current = temp_node; // Assign current node to temp_node to "walk the nodes"
     }
