@@ -1,4 +1,5 @@
 #include <stddef.h> // For size_t
+#include <stdio.h> // for printf, stderr
 #include "stringlib.h"
 
 
@@ -14,7 +15,7 @@ size_t matt_strlen(const char *str){
         p++; //iterate through string
     }
     return (size_t)(p - str); // gives difference between the final pointer and the start pointer. I.e - the length of the string
-};
+}
 
 
 int matt_strcmp(const char *s1, const char *s2){
@@ -30,10 +31,10 @@ int matt_strcmp(const char *s1, const char *s2){
         p2++;
     }
     return (int)((unsigned char)*p1 - (unsigned char)*p2);
-};
+}
 
 
-char matt_strcpy(char *dest, const char *src){
+char *matt_strcpy(char *dest, const char *src){
     // Defensive programming check
     if (dest == NULL || src == NULL){
         fprintf(stderr,"matt_strcpy error: NULL source or destination\n");
@@ -53,9 +54,9 @@ char matt_strcpy(char *dest, const char *src){
     *d = '\0'; // NULL terminate the destination string once, after loop.
     // return destination pointer as finished copied string
     return dest;
-};
+}
 
-char matt_strcat(char *dest, const char *src){
+char *matt_strcat(char *dest, const char *src){
     // Defensive programming check
     if (dest == NULL || src == NULL){
         fprintf(stderr,"matt_strcpy error: NULL source or destination\n");
@@ -78,4 +79,4 @@ char matt_strcat(char *dest, const char *src){
     *d = '\0';
     // return destination pointer as finished cocncatenated string
     return dest;
-};
+}
