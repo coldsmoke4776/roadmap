@@ -20,7 +20,7 @@ The goal is to master **pointers, structs, and memory management basics** before
 ### 🔹 CLI Parser
 - **File:** [`cli_parser/cli_parser.c`](./cli_parser/cli_parser.c) / [`cli_parser/cli_parser.h`](./cli_parser/cli_parser.h)  
 - **Goal:** Custom argument/flag parser (mini `getopt`).  
-- **Proof of Concept:** [`tests/test_cli_parser.c`](./tests/test_cli_parser.c)  
+- **Proof of Concept:** [`tests/test_cli_parser.c`](./tests/test_cliparser.c)  
 
 ### 🔹 String Library
 - **File:** [`stringlib/stringlib.c`](./stringlib/stringlib.c) / [`stringlib/stringlib.h`](./stringlib/stringlib.h)  

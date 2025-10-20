@@ -6,7 +6,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 ## Stage 1 — Data Structures & Utilities
 - [x] 1.1 Vector (init/free/push_back/get/set) ✅
 - [x] 1.2 Linked List ✅
-- [ ] 1.3 CLI Parser
+- [x] 1.3 CLI Parser
 - [x] 1.4 String Library ✅
 
 ## Stage 2 — Custom Memory
