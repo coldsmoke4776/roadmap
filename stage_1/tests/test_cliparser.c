@@ -7,7 +7,7 @@ static void print_token(const parse_result_t *r, const token_t *t){
 }
 
 int main(void){
-    const char *input = "hello  \"foo bar\"  'baz' qux\\ quux"; // Example input to trigger the parser.
+    const char *input = "ping -c 8.8.8.8"; // Example input to trigger the parser.
     parse_result_t res = {0};
 
     int rc = cli_parse(input, &res);
