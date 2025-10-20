@@ -17,7 +17,7 @@ list_t *list_init(size_t element_size){
     list->length= 0; // Set length to 0, because it's an int (initial state)
     list->element_size = element_size; // Utilize element_size
     return list; // Return created list pointer
-};
+}
 
 //Purpose of the function is to free the allocated memory for the list
 // We pass the pointer to the list, because we don't want a copy, we want to free the list we created above
@@ -36,7 +36,7 @@ void list_free(list_t *list){
     }
     free(list); // Free the whole list
     return; // Return nothing due to void.
-};
+}
 
 //Purpose of the function is to add a new element to the front of the linked list
 void list_push_front(list_t *list, void *element){
@@ -70,7 +70,7 @@ void list_push_front(list_t *list, void *element){
     list->head = front_node; // Set list's head to front_node
     list->length++; //Increment list's length
     return;
-};
+}
 
 // Purpose of this function is to add a single element to the back of the linked list
 void list_push_back(list_t *list, void *element){
@@ -114,7 +114,7 @@ void list_push_back(list_t *list, void *element){
     }
     list->length++; // Increment list length
     return;
-};
+}
 
 // Purpose of this function is to retrive the element at a given index node of the list
 void list_get(list_t *list, size_t index, void *out_element){
@@ -141,7 +141,7 @@ void list_get(list_t *list, size_t index, void *out_element){
     }
     memcpy(out_element, current->data, list->element_size);
     return;
-};
+}
 
 //Purpose of this function is to replace the content at a given index node with new_element
 void list_set(list_t *list, size_t index, void *new_element){
@@ -168,7 +168,7 @@ void list_set(list_t *list, size_t index, void *new_element){
     }
     memcpy(current->data, new_element, list->element_size); // Copy the new element into the data portion of the current node
     return;
-};
+}
 
 // Purpose of this function is to remove the node at a given index of the list from it
 void list_remove(list_t*list, size_t index){
@@ -202,7 +202,7 @@ void list_remove(list_t*list, size_t index){
     }
     list->length--;//Decrement list-> length
     return;
-};
+}
 
 //Purpose of this function is to get a job at a FAANG company as an SWE.
 // Jokes aside, the purpose of this function is to reverse the linked list in direction.
@@ -223,4 +223,4 @@ void list_reverse(list_t *list){
     }
     list->head = prev; // After loop, prev is now head of the list, because it's backwards now!
     return;
-};
+}

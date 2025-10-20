@@ -31,7 +31,7 @@ The goal is to master **pointers, structs, and memory management basics** before
 
 ## 🎯 Proof Program
 
-- **File:** [`proofs/stage1_cli.c`](./proofs/stage1_cli.c)  
+- **File:** [`proofs/stage1_cli.c`](./proofs/proof_stage1.c)  
 - **Description:** A small CLI tool that ties everything together.  
   - Uses `cli_parser` to handle arguments  
   - Stores input data in a `vector`  
