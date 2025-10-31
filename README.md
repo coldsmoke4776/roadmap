@@ -10,10 +10,15 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 - [x] 1.4 String Library ✅
 
 ## Stage 2 — Custom Memory
-- [ ] Allocator
-- [ ] Garbage Collector
+- [ ] 2.1 Allocator
+- [ ] 2.2 Memory Pool
+- [ ] 2.3 Heap Visualizer
+- [x] 2.4 Memory Dungeon ✅
 ...
 
+## Stage 3 - Concurrency & Threads
+
+- coming soon...
 
 ## Rules of Play
 - Every project must compile cleanly with `-Wall -Wextra -std=c11`.

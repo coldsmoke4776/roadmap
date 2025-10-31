@@ -42,20 +42,3 @@ This is the **capstone program** for Stage 1 — proof that the modules work tog
 
 ---
 
-## ⚡ Build & Run
-
-From repo root:
-
-```bash
-# Build all Stage 1 modules + proof program
-make stage1
-
-# Run tests individually
-make vector
-make list
-make cli_parser
-make stringlib
-
-# Run proof program
-make stage1_proof
-./bin/stage1_cli
