@@ -10,7 +10,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 - [x] 1.4 String Library ✅
 
 ## Stage 2 — Custom Memory
-- [ ] 2.1 Allocator
+- [x] 2.1 Allocator ✅
 - [ ] 2.2 Memory Pool
 - [ ] 2.3 Heap Visualizer
 - [x] 2.4 Memory Dungeon ✅
