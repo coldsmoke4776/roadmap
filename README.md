@@ -11,7 +11,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 
 ## Stage 2 — Custom Memory
 - [x] 2.1 Allocator ✅
-- [ ] 2.2 Memory Pool
+- [X] 2.2 Memory Pool
 - [ ] 2.3 Heap Visualizer
 - [x] 2.4 Memory Dungeon ✅
 ...
