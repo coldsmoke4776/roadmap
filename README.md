@@ -12,7 +12,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 ## Stage 2 — Custom Memory
 - [x] 2.1 Allocator ✅
 - [X] 2.2 Memory Pool ✅
-- [ ] 2.3 Heap Visualizer
+- [X] 2.3 Heap Visualizer ✅
 - [x] 2.4 Memory Dungeon ✅
 ...
 
@@ -21,7 +21,7 @@ The goal: kill imposter syndrome with proof — by building out each stage, piec
 - coming soon...
 
 ## Rules of Play
-- Every project must compile cleanly with `-Wall -Wextra -std=c11`.
+- Every project must compile cleanly with `-Wall -Wextra -std=c11` or equivalent compilation command (clang etc.).
 - Must include **tests** (no segfaults, no silent fails).
 - Memory safety checked with `valgrind` (Linux) or `leaks` (macOS).
 - Code must be **understood backwards** — no cargo culting.
